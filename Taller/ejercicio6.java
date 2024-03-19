@@ -37,14 +37,17 @@ public class ejercicio6 {
         
         float segundos=824891;
         int caso=1;
+        System.out.println("Primer caso de prueba");
         System.out.println("El numero de dias es: "+obj.convertirSeg(segundos, caso));
         
         segundos=34214422;
         caso=2;
+        System.out.println("Segundo caso de prueba");
         System.out.println("El numero de horas es: "+obj.convertirSeg(segundos, caso));
         
         segundos=7237;
         caso=3;
+        System.out.println("Tercer caso de prueba");
         System.out.println("El numero de minutos es: "+obj.convertirSeg(segundos, caso));
         
     }
