@@ -14,7 +14,7 @@ package Taller;
 public class ejercicio3 {
     public static double dolarAeuro(double dolares){
         double cambio = 1.33250;
-        double euros = dolares*cambio;
+        double euros = dolares/cambio;
             
     return euros;  
         }
